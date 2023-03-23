@@ -1,2 +1,2 @@
 # Personal-Archive
-A collection of all my past and current projects
+Welcome! to a collection of all my past and current projects
