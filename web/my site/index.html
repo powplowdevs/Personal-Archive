@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      
+    <script>
+        let i = 0;
+        let txt = 'AYOUB MOHAMED';
+        
+        let speed = 50;
+        let cuts = 0;
+        let dir = true;
+        let spot = 0;
+        let nav = true;
+
+        const sleep = ms => new Promise(r => setTimeout(r, ms));
+        const alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+        async function typeWriter(){
+          await sleep(1500);
+          typeWriterMAIN();
+        }
+
+        async function typeWriterMAIN() {
+          //add
+          if (i < txt.length) {
+            if(spot >= Math.floor(Math.random() * 7) + 2 && Math.random() > 0.5)
+            {
+              dir = !dir;
+              spot = 0
+            }
+
+            if(dir || cuts >= 3){
+                document.getElementById("NAME").innerHTML += txt.charAt(i);
+                i++;
+                spot++;
+            }
+            else{   
+                if(Math.random() > 0.6){
+                  document.getElementById("NAME").innerHTML += alphabet[Math.floor(Math.random() * alphabet.length)].toUpperCase();
+                  await sleep(250);
+                  document.getElementById("NAME").innerHTML = document.getElementById("NAME").innerHTML.substring(0,document.getElementById("NAME").innerHTML.length-2);
+                }
+                else{
+                  document.getElementById("NAME").innerHTML = document.getElementById("NAME").innerHTML.substring(0,document.getElementById("NAME").innerHTML.length-1);
+                }
+                cuts++;
+                spot++;
+                if(i>0){
+                  i--;
+                }
+            }
+            setTimeout(typeWriterMAIN, speed);
+          }
+        else{
+            let PFP = document.createElement("img");
+            PFP.id = "PFP";
+            PFP.src = "PFP.png"
+            await sleep(1000);
+            
+            document.getElementById("NAME").style.animation = "mainTextSlide 1s"
+            document.getElementById("NAME").style.fontSize = "675%"
+            document.getElementById("NAME").style.marginTop = "15%"
+            document.getElementById("NAME").style.marginLeft = "5%"
+            document.getElementById("NAME").style.textAlign = "left"
+
+            document.getElementById("SL").style.animation = "fadein 1s";
+            document.getElementById("SL").style.opacity = "100%";
+            document.getElementById("icons").style.animation = "fadein 1s";
+            document.getElementById("icons").style.opacity = "100%";
+            document.getElementById("NAME_UNDER").style.animation = "fadein 1s";
+            document.getElementById("NAME_UNDER").style.opacity = "100%";
+            
+            
+            // document.getElementById("NAME").style.transform = "scale(0.5,0.5)"
+            // document.body.prepend(PFP)
+          }
+        }
+
+        function NAVchange(){
+          if(nav){
+            nav = !nav
+            document.getElementById("NAV").style.width = "15%";
+            document.getElementById("main").style.marginLeft = "15%";
+          }
+          else{
+            nav = !nav
+            document.getElementById("NAV").style.width = "0"; 
+            document.getElementById("main").style.marginLeft = "0";
+          }
+          
+        }
+        
+    </script>
+
+    
+
+  </head>
+   
+  <body onload="typeWriter()">
+        <!-- NAV BAR -->
+        <span id="navclose" onclick="NAVchange()">&#9776;</span>
+        <div id="NAV">
+          <a id="closeNAV" onclick="NAVchange()">Close</a>
+          <a href="#">About me</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Contact</a>
+        </div> 
+        <!-- MAIN -->
+        <div id="main">
+          <!-- SOCAIL LINKS -->
+          <img id="SL" src="SOCIAL_LINKS.png"/>
+          <div id="icons">
+            <a href="mailto:powplowdev@gmai.com"><img id="mail" src="MAIL_ico.png" style="width: 5%; position: absolute; margin-top: 11.8%; margin-left: 53.1%;"></a>
+            <img id="linkedin" src="LINKEDIN_ico.png" style="width: 5%; position: absolute; margin-top: 8.1%; margin-left: 71.4%;"></a>
+            <a href="https://github.com/powplowdevs?"><img id="github" src="GITHUB_ico.png" style="width: 5%; position: absolute; margin-top: 17.8%; margin-left: 85.7%;"></a>
+            <a href="#"><img id="web" src="WEB_ico.png" style="width: 5%; position: absolute; margin-top: 27.3%; margin-left: 64.8%;"></a>
+          </div>
+          <!-- NAME TEXT -->  
+          <p id="NAME_UNDER">Resilience•Innovation•Creativity</p>
+          <p id="NAME"></p>  
+          <!-- PORTFOLIO -->
+          
+        </div>
+        
+        
+  </body>
+        
+  </body>
+
+</html>

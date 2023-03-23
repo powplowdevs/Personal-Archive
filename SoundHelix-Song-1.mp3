@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.soundhelix.com/audio-examples" />
+<link rel="canonical" href="/audio-examples" />
+<link rel="shortlink" href="/node/8" />
+<link rel="shortcut icon" href="https://www.soundhelix.com/sites/default/files/SoundHelix-logo.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Audio Examples | SoundHelix</title>
+<link type="text/css" rel="stylesheet" href="https://www.soundhelix.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.soundhelix.com/sites/default/files/css/css_n5NOlzLYkslam2vYrDjfM5WOGXhNREgS3ALzYCw5FiE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.soundhelix.com/sites/default/files/css/css_PGbJgHCUCBf4dg7K9Kt8aAwsApndP4GZ9RuToPy3-Fk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.soundhelix.com/sites/default/files/css/css_rP5iJ-BWw4FVpOe_fVdjUyvLTPm1N_h8l6xOGKgf73Y.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://www.soundhelix.com/sites/default/files/css/css_mZXjQn09JSKu3XZyT4G1q9j4Y94C_U1fdZZyLvmUumQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.soundhelix.com/sites/default/files/css/css_JUumoDpyyVjWR3AY-4zDwbOe2yURsgJzfrpJbANOfcM.css" media="only screen" />
+<link type="text/css" rel="stylesheet" href="https://www.soundhelix.com/sites/default/files/css/css_MqLAdMaKBPVyUn0ExrKAHs_I7dnD2uHsfPYEu2VOmdk.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://www.soundhelix.com/sites/default/files/css/css_j7HpbbA_kxd0VGlE-aQjZPvymXzitrHwKg9w17Bf0FE.css" media="only screen" />
+
+<!--[if lt IE 9]>
+<link type="text/css" rel="stylesheet" href="https://www.soundhelix.com/sites/default/files/css/css_dYw-WtKNpe9yy9K2hbinBfGihilmrkg1wLdpWHiBNHs.css" media="screen" />
+<![endif]-->
+<script type="text/javascript" src="https://www.soundhelix.com/sites/default/files/js/js_s7yA-hwRxnKty__ED6DuqmTMKG39xvpRyrtyCrbWH4M.js"></script>
+<script type="text/javascript" src="https://www.soundhelix.com/sites/default/files/js/js_i9-mZxF1wrIj_pHo8CcygMfG3cz35Mlm6odAjzL19fk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://www.soundhelix.com/matomo/" : "http://www.soundhelix.com/matomo/");_paq.push(["setSiteId", "1"]);_paq.push(["setTrackerUrl", u+"matomo.php"]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src="https://www.soundhelix.com/sites/default/files/matomo/matomo.js?rp0b0c";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.soundhelix.com/sites/default/files/js/js_-oEDdwe4XpUqUj4W0KJs96ENaXIrGvjBvIP-WYYBi54.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"pixture_reloaded","theme_token":"9oneEEGExlF_gLMaLZYYRmPdB2UWoMlvOfgpNozuCf0","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/matomo\/matomo.js":1,"0":1,"sites\/all\/modules\/extlink\/js\/extlink.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/css\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/adaptivetheme\/at_core\/css\/at.settings.style.headings.css":1,"sites\/all\/themes\/adaptivetheme\/at_core\/css\/at.settings.style.image.css":1,"sites\/all\/themes\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/all\/themes\/pixture_reloaded\/color\/colors.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.css":1,"sites\/all\/themes\/pixture_reloaded\/css\/pixture_reloaded.settings.style.css":1,"public:\/\/adaptivetheme\/pixture_reloaded_files\/pixture_reloaded.responsive.layout.css":1,"public:\/\/adaptivetheme\/pixture_reloaded_files\/pixture_reloaded.fonts.css":1,"public:\/\/adaptivetheme\/pixture_reloaded_files\/pixture_reloaded.responsive.styles.css":1,"public:\/\/adaptivetheme\/pixture_reloaded_files\/pixture_reloaded.lt-ie9.layout.css":1}},"matomo":{"trackMailto":1},"urlIsAjaxTrusted":{"\/search\/node":true,"\/audio-examples":true},"extlink":{"extTarget":"_blank","extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extIconPlacement":"append","extSubdomains":0,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false},"adaptivetheme":{"pixture_reloaded":{"layout_settings":{"bigscreen":"three-col-grail","tablet_landscape":"three-col-grail","tablet_portrait":"one-col-vert","smalltouch_landscape":"one-col-vert","smalltouch_portrait":"one-col-stack"},"media_query_settings":{"bigscreen":"only screen and (min-width:1025px)","tablet_landscape":"only screen and (min-width:769px) and (max-width:1024px)","tablet_portrait":"only screen and (min-width:481px) and (max-width:768px)","smalltouch_landscape":"only screen and (min-width:321px) and (max-width:480px)","smalltouch_portrait":"only screen and (max-width:320px)"}}}});
+//--><!]]>
+</script>
+<!--[if lt IE 9]>
+<script src="https://www.soundhelix.com/sites/all/themes/adaptivetheme/at_core/scripts/html5.js?rp0b0c"></script>
+<![endif]-->
+</head>
+<body class="html not-front not-logged-in two-sidebars page-node page-node- page-node-8 node-type-page atr-7.x-3.x atv-7.x-3.1 color-scheme-orangesunset pixture-reloaded bs-n bb-n mb-dd mbp-l ">
+  <div id="skip-link" class="nocontent">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="texture-overlay">
+  <div id="page" class="container page snc-n snw-n sna-l sns-n ssc-n ssw-n ssa-l sss-n btc-n btw-b bta-l bts-n ntc-n ntw-b nta-l nts-n ctc-n ctw-b cta-l cts-n ptc-n ptw-b pta-l pts-n">
+
+    <header  id="header" class="clearfix" role="banner">
+      <div class="header-inner clearfix">
+
+                  <!-- start: Branding -->
+          <div  id="branding" class="branding-elements clearfix">
+
+                          <div id="logo">
+                <a href="/"><img class="site-logo" typeof="foaf:Image" src="https://www.soundhelix.com/sites/default/files/SoundHelix-logo.png" alt="SoundHelix" /></a>              </div>
+            
+                          <!-- start: Site name and Slogan hgroup -->
+              <div  class="
