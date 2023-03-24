@@ -30,7 +30,7 @@ def getData(CITY):
     calls += 1
 
     BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
-    API_KEY = "520d977f2380b200471c25d531fdfaeb"
+    API_KEY = ""
 
     #our url to send to
     URL = BASE_URL + "q=" + CITY + "&appid=" + API_KEY
